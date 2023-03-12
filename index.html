@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Portfolio</title>
+</head>
+ 
+<body>
+    <div class="navbar sticky">
+        <div class="left">
+            <p>Portfo<span>lio.</span></p>
+        </div>
+        <ul class="right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="dropdown">
+                <div class="container dropbtn" onclick="myFunction()">
+                              <div class="bar1"></div>
+                              <div class="bar2"></div>
+                              <div class="bar3"></div>
+                          </div>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#education">Education</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div id="home">
+        <div class="l-1">
+            <h6>Hello, my name is</h6>
+            <h1>Rushikesh Shelke</h1>
+            <h4>And I'm a <span class="typed">FrontEnd Developer</span></h4>
+            <a href="#contact"><button type="submit" class="btn">Hire me</button></a>
+        </div>
+        <div class="r-1">
+            <img src="./img/me.png" alt="">
+        </div>
+    </div>
+    <div id="about">
+    <h1 class="headline">About<span>me</span></h1>
+    <hr class="line">
+    <div class="about">
+        <div class="about-main">
+            <p>I'm currently pursuing my Bachelor of Engineering Degree in Electronics and Telecommunication Domain from Pune Vidhyarthi Griha's College of Engineering and Technology, Pune . From childhood I'm interested in Art, I love to make Sketches, Paintings in my free time.</p>
+        </div>
+        <div class="name">
+            <h5><span>Name : <a>Rushikesh Shelke</a></span></h5>
+            <h5><span>Age : <a>21</a></span></h5>
+            <h5><span>Qualification : <a>Pursuing Engineering</a></span></h5>
+            <h5><span>Post : <a>FrontEnd Developer</a></span></h5>
+            <h5><span>Language : <a>English</a></span></h5>
+            <a href="./rushi_shelke_resume.docx" download="rushikesh_shelke_resume">
+                <button class="btn" >Download CV <img id="imgdw" src="./img/dw.png" alt=""></button>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div id="education">
+        <h1 class="headline">Educat<span>ion</span></h1>
+        <hr class="line">
+        <div class="edu-container">
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2018</span>
+                <h2> <br>SSC</h2>
+                <p>Shrikishan Somani School, Latur<br>91.80% </p>
+            </div>
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2020</span>
+                <h2> <br>HSC</h2>
+                <p>Dayanand Science College, Latur<br>76.15% </p>
+            </div>
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2021</span>
+                <h2> <br>First Year</h2>
+                <p>PVG's College of Engineering, Pune<br>8.61 SGPA </p>
+            </div>
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2022</span>
+                <h2> <br>Second Year</h2>
+                <p>PVG's College of Engineering, Pune<br>7.34 SGPA</p>
+            </div>
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2023</span>
+                <h2> <br>Third Year</h2>
+                <p>PVG's College of Engineering, Pune<br>Pursuing </p>
+            </div>
+            <div class="edu-box">
+                <div class="imgbox"><img src="./img/gcap.png" alt=""></div>
+                <span>2024</span>
+                <h2> <br>Fourth Year</h2>
+                <p>PVG's College of Engineering, Pune<br>shall pursue </p>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+    <h1 class="headline">Skil<span style="color: rgb(255, 17, 57);">ls</span></h1>
+    <hr class="line">
+    <div class="skills">
+        <div class="txt">
+            <p>I’m a nice fun and friendly person, I’m honest and punctual, I work well in a team but also
+                on my own as I like to set myself goals which I will achieve, I have good listening and
+                communication
+                skills. I have a creative mind and am always up for new challenges. I am well organized and
+                always plan ahead to make sure I manage my time well.</p>
+        </div>
+        <div class="data">
+            <div class="bars">
+                <div class="info">
+                    <span>C++</span>
+                    <span>65%</span>
+                </div>
+                <div class="ln c"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>Java</span>
+                    <span>65%</span>
+                </div>
+                <div class="ln java"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="ln html"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+                <div class="ln css"></div>
+            </div>
+            <div class="bars">
+                <div class="info">
+                    <span>Javascript</span>
+                    <span>70%</span>
+                </div>
+                <div class="ln javascript"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="contact">
+        <h1 class="headline">Cont<span style="color: rgb(255, 17, 57);">act</span></h1>
+    <hr class="line">
+    <div class="contact">
+        <div class="contact-left">
+            <h3>Details</h3>
+            <div class="detail">
+                <div class="detail-in">
+                <div><img src="./img/message.png" alt="">shelkerushi22@gmail.com</div>
+                <div><img src="./img/call.png" alt="">9552457999</div>
+                <div><img src="./img/location.png" alt="">Pune, Maharastra</div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-right">
+            <h3>Contact Me</h3>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){alert('Thank You. I will contact you soon') }"></iframe>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeoNdr1fd2mLuICO3X2nXl3QLlOPjGtEKyBWc0B4E_q_mBVPA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+                <div id="form" >
+                    <div class="input-container">
+                        <input autocomplete="off" type="text" name="entry.2005620554" class="input" placeholder="Name">
+                    </div>
+                    <div class="input-container">
+                        <input autocomplete="off" type="email" name="entry.1045781291" class="input" placeholder="Email">
+                    </div>
+                    <div class="input-container">
+                        <input autocomplete="off" type="tel" name="entry.1166974658" class="input" placeholder="Phone No.">
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea autocomplete="off" name="entry.839337160" class="input" placeholder="Message" ></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send <img id="send" src="./img/send.png" alt=""></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <hr class="line">  
+        <div class="media">
+            <a target="_blank" href="https://www.facebook.com/rushikesh.shelke.9465"><img src="./img/facebook.png"></a>
+            <a target="_blank" href="https://www.twitter.com/rushiarts22"><img src="./img/twitter.png"></a>
+            <a target="_blank" href="https://www.instagram.com/rushii_shelke"><img src="./img/instagram.png"></a>
+            <a target="_blank" href="https://wa.me/+919552457999"><img src="./img/whatsapp.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rushi-shelke"><img src="./img/linkedin.png"></a>
+        </div>  
+        <p>Portfo<span>lio.</span> </p> 
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a id="con" href="#contact">Contact</a></li>
+        </ul> 
+    </div>
+    <div class="foot">
+        <p>Copyright &copy; 2023</p>
+        <p>www.MyPortfolio.com</p>
+        <p>All rights reserved</p>
+    </div>  
+</body>
+
+</html>
